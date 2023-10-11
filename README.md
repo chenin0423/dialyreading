@@ -1,3 +1,3 @@
 # dialyreading 
-mkdir ./prev/10062023
-cp bible.html index.html lifestudy.html ./prev/10062023
+mkdir ./prev/10102023
+cp index.html ./prev/10102023
