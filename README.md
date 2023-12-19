@@ -1,3 +1,3 @@
 # dialyreading 
-mkdir ./prev/12152023
-cp index.html ./prev/12152023
+mkdir ./prev/12182023
+cp index.html ./prev/12182023
