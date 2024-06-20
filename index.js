@@ -17,13 +17,13 @@ var newTest = "罗马书"
 $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
 content = " <a>第4~8章</a>" //<------ update here every week
-link = "https://line.twgbr.org/recoveryversion/bible/04.html#C1Num"
+link = "https://line.twgbr.org/recoveryversion/bible/04.html#C4Num"
 $('.div2 > h3 > ul > .p1').text(ti)
 $('.div2 > h3 > ul > .p1').append(content)// add content
 $('.div2 > h3 > ul > .p1 > a').attr('href', link)
 ti = "新约：" + newTest
 content = " <a>第4~8章</a>" //<------ update here every week
-link = "https://line.twgbr.org/recoveryversion/bible/45.html#C1Rom"
+link = "https://line.twgbr.org/recoveryversion/bible/45.html#C4Rom"
 $('.div2 > h3 > ul > .p2').text(ti)
 $('.div2 > h3 > ul > .p2').append(content)// add content
 $('.div2 > h3 > ul > .p2 > a').attr('href', link)
