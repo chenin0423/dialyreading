@@ -51,7 +51,7 @@ newTest = "歌罗西书生命读经"
 $('.div3 > .sub').text("生命读经")
 ti = "进度："
 content = "<a>" + newTest + "</a>"
-link = "http://www.life-study1984.org/schedule/schedule.php?bookno=50-Y"
+link = "http://www.life-study1984.org/schedule/schedule.php?bookno=51-Y"
 elem = '.div3 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = "展览日期：8/15/2024"
