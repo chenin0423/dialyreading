@@ -55,8 +55,6 @@ link = "http://www.life-study1984.org/schedule/schedule.php?bookno=51-Y"
 elem = '.div3 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = "展览日期：8/15/2024"
-link = "http://www.life-study1984.org/schedule/schedule.php?bookno=50-Y"
 $('.div3 > h3 > ul > .p2').text(ti)
 ti = "展览范围：歌罗西书生命读经第1至8篇"
-link = "http://www.life-study1984.org/schedule/schedule.php?bookno=50-Y"
 $('.div3 > h3 > ul > .p3').text(ti)
