@@ -23,12 +23,12 @@ var newTest = "罗马书"
 $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
 content = " <a>第4~8章</a>" //<------ update here every week
-link = "https://line.twgbr.org/recoveryversion/bible/04.html#C4Num"
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=4&f_ChapterNo=4&f_VerseNo=1"
 elem = '.div2 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = "新约：" + newTest
 content = " <a>第4~8章</a>" //<------ update here every week
-link = "https://line.twgbr.org/recoveryversion/bible/45.html#C4Rom"
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=45&f_ChapterNo=4&f_VerseNo=1"
 elem = '.div2 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列认识基督系列："
