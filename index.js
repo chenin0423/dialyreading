@@ -58,3 +58,33 @@ ti = "展览日期：8/15/2024"
 $('.div3 > h3 > ul > .p2').text(ti)
 ti = "展览范围：歌罗西书生命读经第1至8篇"
 $('.div3 > h3 > ul > .p3').text(ti)
+// for new one
+$('.div4 > .sub').text("新人喂养")
+ti = "初信喂养系列："
+content = "<a>" + "第1~12周" + "</a>"
+link = "https://e-shepherding.org/%e5%88%9d%e4%bf%a1%e5%96%82%e5%85%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac1-12%e5%91%a8%ef%bc%89/"
+elem = '.div4 > h3 > ul > .p1'
+updatePointContent(elem, ti, content, link)
+ti = "初信喂养系列："
+content = "<a>" + "第13~24周" + "</a>"
+link = "https://e-shepherding.org/%e5%88%9d%e4%bf%a1%e5%96%82%e5%85%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac1324%e5%91%a8%ef%bc%89/"
+elem = '.div4 > h3 > ul > .p2'
+updatePointContent(elem, ti, content, link)
+ti = "召会生活系列："
+content = "<a>" + "第25~36周" + "</a>"
+link = "https://e-shepherding.org/%e5%8f%ac%e4%bc%9a%e7%94%9f%e6%b4%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac2536%e5%91%a8%ef%bc%89/"
+elem = '.div4 > h3 > ul > .p3'
+updatePointContent(elem, ti, content, link)
+ti = "福音生活系列："
+content = "<a>" + "第37~48周" + "</a>"
+link = "https://e-shepherding.org/%e7%a6%8f%e9%9f%b3%e7%94%9f%e6%b4%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac3748%e5%91%a8%ef%bc%89/"
+elem = '.div4 > h3 > ul > .p4'
+updatePointContent(elem, ti, content, link)
+// hymns
+$('.div5 > .sub').text("诗歌")
+ti = ""
+content = "<a>" + "诗歌集" + "</a>"
+link = "https://chenin0423.github.io/myhymns/"
+elem = '.div5 > h3 > ul > .p1'
+updatePointContent(elem, ti, content, link)
+
