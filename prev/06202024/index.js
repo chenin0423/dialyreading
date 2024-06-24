@@ -5,7 +5,7 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-var ti = "本周(6.24.2024 - 6.28.2024)晨兴与读经进度"
+var ti = "本周(6.17.2024 - 6.21.2024)晨兴与读经进度"
 $('title').text(ti)
 $('h1').text(ti)
 //Morning Revival
@@ -13,8 +13,8 @@ $('.div1 > .sub').text("晨兴圣言")
 var book = "书目：" + "经营美地所预表包罗万有的基督，为着建造召会作基督的身体，为着国度的实际与实现，并为着新妇得以为主的来临将自己预备好(2023年冬季训练)"
 $('.div1 > h3 > ul > .p1').text(book)
 ti = "进度："
-var content = "<a>第七周 认识升天</a>"
-var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2023:2023.07.%E5%86%AC%E5%AD%A3%E8%AE%AD%E7%BB%83:%E7%AC%AC%E4%B8%83%E5%91%A8"
+var content = "<a>第六周 基督作我们安息日的安息，由迦南美地所预表</a>"
+var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2023:2023.07.%E5%86%AC%E5%AD%A3%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8"
 var elem = '.div1 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
 //Bible
@@ -22,13 +22,13 @@ var oldTest = "民数记"
 var newTest = "罗马书"
 $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
-content = " <a>第9~13章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=4&f_ChapterNo=9&f_VerseNo=1"
+content = " <a>第4~8章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=4&f_ChapterNo=4&f_VerseNo=1"
 elem = '.div2 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = "新约：" + newTest
-content = " <a>第9~13章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=45&f_ChapterNo=9&f_VerseNo=1"
+content = " <a>第4~8章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=45&f_ChapterNo=4&f_VerseNo=1"
 elem = '.div2 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列认识基督系列："
