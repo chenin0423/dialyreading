@@ -31,12 +31,12 @@ content = " <a>第9~13章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=45&f_ChapterNo=9&f_VerseNo=1"
 elem = '.div2 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
-ti = "认识基督系列认识基督系列："
+ti = "认识基督系列："
 content = "<a>" + oldTest + "</a>"
 link = "https://substantial-baboon-a7f.notion.site/eecc41f80c404494b4faaec0088ea8b2"
 elem = '.div2 > h3 > ul > .p3'
 updatePointContent(elem, ti, content, link)
-ti = "认识基督系列认识基督系列："
+ti = "认识基督系列："
 content = "<a>" + newTest + "</a>"
 link = "https://shard-desk-771.notion.site/8c64d024703f43b2a7ad8c8a665c9e64"
 elem = '.div2 > h3 > ul > .p4'
