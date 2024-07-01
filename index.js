@@ -24,7 +24,7 @@ $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
 content = " <a>第14~18章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=4&f_ChapterNo=14"
-elem = '.div2 > h3 > ul > li > .p1'
+elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
 content = "<a>" + oldTest + "</a>"
