@@ -26,6 +26,7 @@ content = " <a>第14~18章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=4&f_ChapterNo=14"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
+/*
 ti = "认识基督系列："
 content = "<a>" + oldTest + "</a>"
 link = "https://substantial-baboon-a7f.notion.site/eecc41f80c404494b4faaec0088ea8b2"
@@ -62,6 +63,7 @@ content = "<a>" + newTest + "</a>"
 link = "https://xinrenfuyin.org/?page_id=10910"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
+*/
 //Life Study
 newTest = "歌罗西书生命读经"
 $('.div3 > .sub').text("生命读经")
