@@ -81,6 +81,11 @@ content = "<a>" + "第37~48周" + "</a>"
 link = "https://e-shepherding.org/%e7%a6%8f%e9%9f%b3%e7%94%9f%e6%b4%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac3748%e5%91%a8%ef%bc%89/"
 elem = '.div4 > h3 > ul > .p4'
 updatePointContent(elem, ti, content, link)
+ti = "福音生活系列："
+content = "<a>" + "牧养材料96题" + "</a>"
+link = "https://e-shepherding.org/%E7%89%A7%E5%85%BB%E6%9D%90%E6%96%9996%E9%A2%98/"
+elem = '.div4 > h3 > ul > .p5'
+updatePointContent(elem, ti, content, link)
 // hymns
 $('.div5 > .sub').text("诗歌")
 ti = ""
