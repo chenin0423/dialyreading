@@ -5,7 +5,7 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-var ti = "本周(8.25.2024 - 8.31.2024)晨兴与读经进度"
+var ti = "本周(8.18.2024 - 8.24.2024)晨兴与读经进度"
 $('title').text(ti)
 $('h1').text(ti)
 //Morning Revival
@@ -13,16 +13,16 @@ $('.div1 > .sub').text("晨兴圣言")
 var book = "书目：" + "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
 $('.div1 > h3 > ul > .p1').text(book)
 ti = "进度："
-var content = "<a>第三周 在基督耶稣里的恩典上得着加力，成为教师、精兵、竞赛者、农夫和工人</a>"
-var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E4%B8%89%E5%91%A8"
+var content = "<a>第一周 建立操练灵的习惯，将神赐给我们的灵如火挑旺起来，借此活在神永远经纶的实际里，以完成这经纶</a>"
+var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E4%B8%80%E5%91%A8"
 var elem = '.div1 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
 //Bible
 var oldTest = "申命记"
 $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
-content = " <a>18~22章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=18"
+content = " <a>8~12章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=8"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
@@ -30,31 +30,31 @@ content = "<a>" + oldTest + "</a>"
 link = "https://substantial-baboon-a7f.notion.site/439cb75f4cc1495692f9d678c7080a85"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
-var newTest = "以弗所书"
+var newTest = "哥林多后书"
 ti = "新约：" + newTest
-content = " <a>第3~6章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=49&f_ChapterNo=3"
+content = " <a>第12~13章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=47&f_ChapterNo=12"
 elem = '.div2 > h3 > ul > li > .p2'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
 content = "<a>" + newTest + "</a>"
-link = "https://shard-desk-771.notion.site/3930b8c0fbea4b64947a56bd3f6d0ed1"
+link = "https://shard-desk-771.notion.site/bf2247b3ac6f48bab7ac60a5ed9760be"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "新约圣经导读："
 content = "<a>" + newTest + "</a>"
-link = "https://xinrenfuyin.org/?page_id=11159"
+link = "https://xinrenfuyin.org/?page_id=10908"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
-newTest = "腓立比书"
+newTest = "加拉太书"
 ti = "新约：" + newTest
-content = " <a>第1章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=50&f_ChapterNo=1"
+content = " <a>第1~3章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=48&f_ChapterNo=1"
 elem = '.div2 > h3 > ul > li > .p3'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
 content = "<a>" + newTest + "</a>"
-link = "https://shard-desk-771.notion.site/4fcaddc450f949c58793a08095c92fbd"
+link = "https://shard-desk-771.notion.site/1bbc5fceefc94f0f9f73894ce996b912"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "新约圣经导读："
@@ -71,9 +71,9 @@ content = "<a>" + newTest + "</a>"
 link = "http://www.life-study1984.org/schedule/schedule.php?bookno=51-Y"
 elem = '.div3 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
-ti = "展览日期: 9/12/2024"
+ti = "展览日期：8/15/2024"
 $('.div3 > h3 > ul > .p2').text(ti)
-ti = "展览范围：歌罗西书生命读经第9至16篇"
+ti = "展览范围：歌罗西书生命读经第1至8篇"
 $('.div3 > h3 > ul > .p3').text(ti)
 // for new one
 $('.div4 > .sub').text("新人喂养")
