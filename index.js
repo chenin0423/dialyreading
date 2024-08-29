@@ -73,7 +73,7 @@ elem = '.div3 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = "展览日期: 9/12/2024"
 $('.div3 > h3 > ul > .p2').text(ti)
-ti = "展览范围：歌罗西书生命读经第9至16篇"
+ti = "展览范围：歌罗西书生命读经第9至16篇 (歌罗西书一章15~29节)"
 $('.div3 > h3 > ul > .p3').text(ti)
 // for new one
 $('.div4 > .sub').text("新人喂养")
