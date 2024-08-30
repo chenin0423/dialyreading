@@ -106,7 +106,7 @@ updatePointContent(elem, ti, content, link)
 $('.div5 > .sub').text("其他")
 ti = ""
 content = "<a>" + "诗歌集" + "</a>"
-link = "https://chenin0423.github.io/myhymns/"
+link = "https://rosemeaddistrict.github.io/myhymns/"
 elem = '.div5 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = ""
