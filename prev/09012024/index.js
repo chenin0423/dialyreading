@@ -5,7 +5,7 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-var ti = "本周(9.8.2024 - 9.14.2024)晨兴与读经进度"
+var ti = "本周(9.1.2024 - 9.7.2024)晨兴与读经进度"
 $('title').text(ti)
 $('h1').text(ti)
 //Morning Revival
@@ -13,16 +13,16 @@ $('.div1 > .sub').text("晨兴圣言")
 var book = "书目：" + "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
 $('.div1 > h3 > ul > .p1').text(book)
 ti = "进度："
-var content = "<a>第五周 借着吸入并呼出神的话作神的气，成为装备齐全的神人</a>"
-var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E4%BA%94%E5%91%A8"
+var content = "<a>第四周 基督把死废掉，将生命和不朽坏照耀出来，以及我们记念大卫的后裔耶稣基督从死人中得复活</a>"
+var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%9B%9B%E5%91%A8"
 var elem = '.div1 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
 //Bible
 var oldTest = "申命记"
 $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
-content = " <a>28~32章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=28"
+content = " <a>23~27章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=23"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
@@ -30,36 +30,36 @@ content = "<a>" + oldTest + "</a>"
 link = "https://substantial-baboon-a7f.notion.site/439cb75f4cc1495692f9d678c7080a85"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
-var newTest = "歌罗西书"
+var newTest = "腓立比书"
 ti = "新约：" + newTest
-content = " <a>第3~4章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=51&f_ChapterNo=3"
+content = " <a>第2~4章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=50&f_ChapterNo=2"
 elem = '.div2 > h3 > ul > li > .p2'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
 content = "<a>" + newTest + "</a>"
-link = "https://shard-desk-771.notion.site/a4fe0637669d48c2848eac37703e4883"
+link = "https://shard-desk-771.notion.site/4fcaddc450f949c58793a08095c92fbd"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "新约圣经导读："
 content = "<a>" + newTest + "</a>"
-link = "http://xinrenfuyin.org/?p=11193"
+link = "https://xinrenfuyin.org/?page_id=11091"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
-newTest = "帖撒罗尼迦前书"
+newTest = "歌罗西书"
 ti = "新约：" + newTest
-content = " <a>第1~3章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=52&f_ChapterNo=1"
+content = " <a>第1~2章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=51&f_ChapterNo=1"
 elem = '.div2 > h3 > ul > li > .p3'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
 content = "<a>" + newTest + "</a>"
-link = "https://shard-desk-771.notion.site/3387dd06b85f48a2bf84aef649ba6847"
+link = "https://shard-desk-771.notion.site/a4fe0637669d48c2848eac37703e4883"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "新约圣经导读："
 content = "<a>" + newTest + "</a>"
-link = "http://xinrenfuyin.org/?page_id=11257"
+link = "https://xinrenfuyin.org/?p=11193"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
 //Life Study
