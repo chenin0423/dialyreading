@@ -33,7 +33,7 @@ updatePointContent(elem, ti, content, link)
 oldTest = "约书亚记"
 $('.div2 > .sub').text("圣经")
 ti = "旧约：" + oldTest
-content = " <a>1~3章</a>" //<------ update here every week
+content = " <a>第1~3章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=28"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
