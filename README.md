@@ -1,3 +1,3 @@
-mkdir ./prev/09012024
-cp index.html ./prev/09012024
-cp index.js ./prev/09012024
+mkdir ./prev/09082024
+cp index.html ./prev/09082024
+cp index.js ./prev/09082024
