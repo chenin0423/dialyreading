@@ -5,7 +5,7 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-var ti = "本周(9.8.2024 - 9.14.2024)晨兴与读经进度"
+var ti = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
 $('title').text(ti)
 $('h1').text(ti)
 //Morning Revival
