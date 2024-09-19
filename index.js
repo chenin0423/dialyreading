@@ -5,61 +5,68 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-var ti = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
+const title = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
+const morning_revival_book_title = "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
+const morning_revival_this_week = "<a>第六周 作贵重的器皿，同那清心呼求主的人，竭力追求公义、信、爱、和平</a>"
+const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8"
+
+const old_test1 = "申命记" 
+const old_test2 = "约书亚记" 
+const new_test1 = "帖撒罗尼迦前书"
+const new_test2 = "帖撒罗尼迦后书"
+
+var ti = title
 $('title').text(ti)
 $('h1').text(ti)
 //Morning Revival
 $('.div1 > .sub').text("晨兴圣言")
-var book = "书目：" + "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
+var book = "书目：" + morning_revival_book_title
 $('.div1 > h3 > ul > .p1').text(book)
 ti = "进度："
-var content = "<a>第六周 作贵重的器皿，同那清心呼求主的人，竭力追求公义、信、爱、和平</a>"
-var link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8"
+var content = morning_revival_this_week
+var link = morning_revival_link
 var elem = '.div1 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
 //Bible
-var oldTest = "申命记"
 $('.div2 > .sub').text("圣经")
-ti = "旧约：" + oldTest
+ti = "旧约：" + old_test1
 content = " <a>第33~34章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=33"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
-content = "<a>" + oldTest + "</a>"
+content = "<a>" + old_test1 + "</a>"
 link = "https://substantial-baboon-a7f.notion.site/439cb75f4cc1495692f9d678c7080a85"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
-oldTest = "约书亚记"
 $('.div2 > .sub').text("圣经")
-ti = "旧约：" + oldTest
+ti = "旧约：" + old_test2
 content = " <a>第1~3章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=28"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
-content = "<a>" + oldTest + "</a>"
+content = "<a>" + old_test2 + "</a>"
 link = "https://substantial-baboon-a7f.notion.site/6c31b722ecb24fc2be5a136496f04aed"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 var newTest = "帖撒罗尼迦前书"
-ti = "新约：" + newTest
+ti = "新约：" + new_test1
 content = " <a>第4~5章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=52&f_ChapterNo=4"
 elem = '.div2 > h3 > ul > li > .p3'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
-content = "<a>" + newTest + "</a>"
+content = "<a>" + new_test1 + "</a>"
 link = "https://shard-desk-771.notion.site/3387dd06b85f48a2bf84aef649ba6847"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "新约圣经导读："
-content = "<a>" + newTest + "</a>"
+content = "<a>" + new_test1 + "</a>"
 link = "http://xinrenfuyin.org/?page_id=11257"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
-newTest = "帖撒罗尼迦后书"
-ti = "新约：" + newTest
+ti = "新约：" + new_test2
 content = " <a>第1~3章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=53&f_ChapterNo=1"
 elem = '.div2 > h3 > ul > li > .p4'
