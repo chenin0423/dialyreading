@@ -5,9 +5,8 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-function updatePointContent(element, title, content1, link1, content2, link2){
-    $(element).text(title)
-    $(element).append(content1)// add content
+function addContentAndLink(element, content, link){
+    $(element).append(content)// add content
     element = element + ' > a'
     $(element).attr('href', link)
 }
@@ -60,39 +59,7 @@ content = " <a>第1~3章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=53&f_ChapterNo=1"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p2'
 updatePointContent(elem, ti, content, link)
-/*
-$('.div2 > .sub').text("圣经")
-ti = "认识基督系列："
-content = "<a>" + old_test2 + "</a>"
-link = "https://substantial-baboon-a7f.notion.site/6c31b722ecb24fc2be5a136496f04aed"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(1) > p'
-updatePointContent(elem, ti, content, link)
-ti = "认识基督系列："
-content = "<a>" + new_test1 + "</a>"
-link = "https://shard-desk-771.notion.site/3387dd06b85f48a2bf84aef649ba6847"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(1) > p'
-updatePointContent(elem, ti, content, link)
-ti = "新约圣经导读："
-content = "<a>" + new_test1 + "</a>"
-link = "http://xinrenfuyin.org/?page_id=11257"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(3) > ul > li:nth-child(2) > p'
-updatePointContent(elem, ti, content, link)
-ti = "新约：" + new_test2
-content = " <a>第1~3章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=53&f_ChapterNo=1"
-elem = '.div2 > h3 > ul > li > .p4'
-updatePointContent(elem, ti, content, link)
-ti = "认识基督系列："
-content = "<a>" + newTest + "</a>"
-link = "https://shard-desk-771.notion.site/4a90a09334184bb0b213ebc3cc284424"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(4) > ul > li:nth-child(1) > p'
-updatePointContent(elem, ti, content, link)
-ti = "新约圣经导读："
-content = "<a>" + newTest + "</a>"
-link = "http://xinrenfuyin.org/?page_id=11335"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(4) > ul > li:nth-child(2) > p'
-updatePointContent(elem, ti, content, link)
-*/
+
 
 //Life Study
 newTest = "歌罗西书生命读经"
@@ -106,43 +73,3 @@ ti = "展览日期: 10/17/2024"
 $('.div3 > h3 > ul > .p2').text(ti)
 ti = "展览范围：歌罗西书生命读经第17至24篇 (歌罗西书章二1~22节)"
 $('.div3 > h3 > ul > .p3').text(ti)
-// for new one
-$('.div4 > .sub').text("新人喂养")
-ti = "初信喂养系列："
-content = "<a>" + "第1~12周" + "</a>"
-link = "https://e-shepherding.org/%e5%88%9d%e4%bf%a1%e5%96%82%e5%85%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac1-12%e5%91%a8%ef%bc%89/"
-elem = '.div4 > h3 > ul > .p1'
-updatePointContent(elem, ti, content, link)
-ti = "初信喂养系列："
-content = "<a>" + "第13~24周" + "</a>"
-link = "https://e-shepherding.org/%e5%88%9d%e4%bf%a1%e5%96%82%e5%85%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac1324%e5%91%a8%ef%bc%89/"
-elem = '.div4 > h3 > ul > .p2'
-updatePointContent(elem, ti, content, link)
-ti = "召会生活系列："
-content = "<a>" + "第25~36周" + "</a>"
-link = "https://e-shepherding.org/%e5%8f%ac%e4%bc%9a%e7%94%9f%e6%b4%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac2536%e5%91%a8%ef%bc%89/"
-elem = '.div4 > h3 > ul > .p3'
-updatePointContent(elem, ti, content, link)
-ti = "福音生活系列："
-content = "<a>" + "第37~48周" + "</a>"
-link = "https://e-shepherding.org/%e7%a6%8f%e9%9f%b3%e7%94%9f%e6%b4%bb%e7%b3%bb%e5%88%97%ef%bc%88%e7%ac%ac3748%e5%91%a8%ef%bc%89/"
-elem = '.div4 > h3 > ul > .p4'
-updatePointContent(elem, ti, content, link)
-ti = "新人喂养："
-content = "<a>" + "牧养材料96题" + "</a>"
-link = "https://e-shepherding.org/%E7%89%A7%E5%85%BB%E6%9D%90%E6%96%9996%E9%A2%98/"
-elem = '.div4 > h3 > ul > .p5'
-updatePointContent(elem, ti, content, link)
-// others
-$('.div5 > .sub').text("其他")
-ti = ""
-content = "<a>" + "诗歌集" + "</a>"
-link = "https://rosemeaddistrict.github.io/myhymns/"
-elem = '.div5 > h3 > ul > .p1'
-updatePointContent(elem, ti, content, link)
-ti = ""
-content = "<a>" + "2024北美华语圣徒成全训练" + "</a>"
-link = "https://na-csw.org/cn/training/2024-nacsspt-audio/"
-elem = '.div5 > h3 > ul > .p2'
-updatePointContent(elem, ti, content, link)
-
