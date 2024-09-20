@@ -5,6 +5,13 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
+function updatePointContent(element, title, content1, link1, content2, link2){
+    $(element).text(title)
+    $(element).append(content1)// add content
+    element = element + ' > a'
+    $(element).attr('href', link)
+}
+
 const title = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
 const morning_revival_book_title = "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
 const morning_revival_this_week = "<a>第六周 作贵重的器皿，同那清心呼求主的人，竭力追求公义、信、爱、和平</a>"
@@ -27,34 +34,38 @@ var content = morning_revival_this_week
 var link = morning_revival_link
 var elem = '.div1 > h3 > ul > .p2'
 updatePointContent(elem, ti, content, link)
+
 //Bible
 $('.div2 > .sub').text("圣经")
+
 ti = "旧约：" + old_test1
 content = " <a>第33~34章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=33"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > p'
+elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > .p1'
 updatePointContent(elem, ti, content, link)
-ti = "认识基督系列："
-content = "<a>" + old_test1 + "</a>"
-link = "https://substantial-baboon-a7f.notion.site/439cb75f4cc1495692f9d678c7080a85"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > ul > li:nth-child(1) > p'
-updatePointContent(elem, ti, content, link)
-$('.div2 > .sub').text("圣经")
 ti = "旧约：" + old_test2
 content = " <a>第1~3章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=5&f_ChapterNo=28"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > p'
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=6&f_ChapterNo=1"
+elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > .p2'
 updatePointContent(elem, ti, content, link)
-ti = "认识基督系列："
-content = "<a>" + old_test2 + "</a>"
-link = "https://substantial-baboon-a7f.notion.site/6c31b722ecb24fc2be5a136496f04aed"
-elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(1) > p'
-updatePointContent(elem, ti, content, link)
+
 var newTest = "帖撒罗尼迦前书"
 ti = "新约：" + new_test1
 content = " <a>第4~5章</a>" //<------ update here every week
 link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=52&f_ChapterNo=4"
-elem = '.div2 > h3 > ul > li > .p3'
+elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p1'
+updatePointContent(elem, ti, content, link)
+ti = "新约：" + new_test2
+content = " <a>第1~3章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=53&f_ChapterNo=1"
+elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p2'
+updatePointContent(elem, ti, content, link)
+/*
+$('.div2 > .sub').text("圣经")
+ti = "认识基督系列："
+content = "<a>" + old_test2 + "</a>"
+link = "https://substantial-baboon-a7f.notion.site/6c31b722ecb24fc2be5a136496f04aed"
+elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > ul > li:nth-child(1) > p'
 updatePointContent(elem, ti, content, link)
 ti = "认识基督系列："
 content = "<a>" + new_test1 + "</a>"
@@ -81,6 +92,8 @@ content = "<a>" + newTest + "</a>"
 link = "http://xinrenfuyin.org/?page_id=11335"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(4) > ul > li:nth-child(2) > p'
 updatePointContent(elem, ti, content, link)
+*/
+
 //Life Study
 newTest = "歌罗西书生命读经"
 $('.div3 > .sub').text("生命读经")
