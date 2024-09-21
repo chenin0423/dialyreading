@@ -38,3 +38,12 @@ content = "<a>" + "牧养材料96题" + "</a>"
 link = "https://e-shepherding.org/%E7%89%A7%E5%85%BB%E6%9D%90%E6%96%9996%E9%A2%98/"
 elem = '.div1 > h3 > ul > .p5'
 updatePointContent(elem, ti, content, link)
+ti = "约翰福音圣经伴读："
+content = "<a>" + "约翰福音圣经伴读" + "</a>"
+link = "./John_ch_1202.html"
+elem = '.div1 > h3 > ul > .p6'
+updatePointContent(elem, ti, content, link)
+
+
+
+

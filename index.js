@@ -5,12 +5,6 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-function addContentAndLink(element, content, link){
-    $(element).append(content)// add content
-    element = element + ' > a'
-    $(element).attr('href', link)
-}
-
 const title = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
 const morning_revival_book_title = "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
 const morning_revival_this_week = "<a>第六周 作贵重的器皿，同那清心呼求主的人，竭力追求公义、信、爱、和平</a>"
