@@ -5,12 +5,6 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-function addContentAndLink(element, content, link){
-    $(element).append(content)// add content
-    element = element + ' > a'
-    $(element).attr('href', link)
-}
-
 // for new one
 $('.div1 > .sub').text("新人喂养")
 var ti = "初信喂养系列："
@@ -40,7 +34,7 @@ elem = '.div1 > h3 > ul > .p5'
 updatePointContent(elem, ti, content, link)
 ti = "约翰福音圣经伴读："
 content = "<a>" + "约翰福音圣经伴读" + "</a>"
-link = "./John_ch_1202.html"
+link = "https://drive.google.com/file/d/1PcxhLu2Zw7vlHlGx_kct_FAD9yb6Dwxi/view?usp=sharing"
 elem = '.div1 > h3 > ul > .p6'
 updatePointContent(elem, ti, content, link)
 
