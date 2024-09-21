@@ -15,7 +15,7 @@ const title = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
 const morning_revival_book_title = "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
 const morning_revival_this_week = "<a>第六周 作贵重的器皿，同那清心呼求主的人，竭力追求公义、信、爱、和平</a>"
 const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8"
-const youtube = `<br><br><iframe width="400" height="225" src="https://www.youtube.com/embed/w6ebX8q4EzE?si=UfFVnBm-WBtgV-su" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+const youtube = `<br><iframe width="400" height="225" src="https://www.youtube.com/embed/w6ebX8q4EzE?si=UfFVnBm-WBtgV-su" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
 
 const old_test1 = "申命记" 
 const old_test2 = "约书亚记" 
