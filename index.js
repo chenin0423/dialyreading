@@ -5,7 +5,7 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-const title = "本周(9.15.2024 - 9.21.2024)晨兴与读经进度"
+const title = "本周(9.22.2024 - 9.28.2024)晨兴与读经进度"
 const morning_revival_book_title = "借着在基督耶稣里的恩典上得着加力，成为贵重的器皿，装备齐全的神人，好在神经纶的唯一职事中尽我们的职事 (2024年春季长老负责弟兄训练)"
 const morning_revival_this_week = "<a>第七周 主与我们的灵同在，作我们加力的恩典，使我们能供应神永远经纶的健康教训，讲说生命之恩的健康话语，为着生机地建造召会作基督的身体</a>"
 const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.02.%E6%98%A5%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E4%B8%83%E5%91%A8"
