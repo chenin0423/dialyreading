@@ -12,8 +12,9 @@ const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5
 const youtube = `<br><iframe width="400" height="225" src="https://www.youtube.com/embed/5AqHYq4xYWY?si=RPw47KvNf43ys82e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
 
 const old_test1 = "约书亚记" 
-const new_test1 = "提摩太前书"
-const new_test2 = "提摩太后书"
+const new_test1 = "提多书"
+const new_test2 = "腓利门书"
+const new_test3 = "希伯来书"
 
 
 var ti = title
@@ -42,15 +43,21 @@ elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > .p1'
 updatePointContent(elem, ti, content, link)
 
 ti = "新约：" + new_test1
-content = " <a>第6章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=54&f_ChapterNo=1"
+content = " <a>第1~3章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=56&f_ChapterNo=1"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p1'
 updatePointContent(elem, ti, content, link)
 
 ti = "新约：" + new_test2
-content = " <a>第1~4章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=55&f_ChapterNo=1"
+content = " <a>第1章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=57&f_ChapterNo=1"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p2'
+updatePointContent(elem, ti, content, link)
+
+ti = "新约：" + new_test3
+content = " <a>第1章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=58&f_ChapterNo=1"
+elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p3'
 updatePointContent(elem, ti, content, link)
 
 
