@@ -51,10 +51,10 @@ newTest = "歌罗西书生命读经"
 $('.div3 > .sub').text("生命读经")
 ti = "进度："
 content = "<a>" + newTest + "</a>"
-link = './Lifestudy.html'
+link = 'https://simplified.lsmchinese.org/lifestudy/col-idx.html'
 elem = '.div3 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
 ti = "展览日期: 10/17/2024"
 $('.div3 > h3 > ul > .p2').text(ti)
-ti = "展览范围：歌罗西书生命读经第17至24篇 (歌罗西书章二1~22节)"
-$('.div3 > h3 > ul > .p3').text(ti)
+ti = '展览范围：<a href="./Lifestudy.html">歌罗西书生命读经第17至24篇</a> <a href="https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=51&f_ChapterNo=2">(歌罗西书章二1~22节)</a>'
+$('.div3 > h3 > ul > .p3').html(ti)
