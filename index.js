@@ -5,13 +5,14 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-const title = "本周(10.13.2024 - 10.19.2024)晨兴与读经进度"
+const title = "本周(10.20.2024 - 10.26.2024)晨兴与读经进度"
 const morning_revival_book_title = "2024年国殇节特会 基督徒的生活"
-const morning_revival_this_week = `<a>第二周 接枝的生命</a>`
-const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.03.%E5%9B%BD%E6%AE%87%E8%8A%82%E7%89%B9%E4%BC%9A:%E7%AC%AC%E4%BA%8C%E5%91%A8"
-const youtube = `<br><iframe width="400" height="225" src="https://www.youtube.com/embed/YKEQfwRU0WQ?si=JFtJ8U4B_sl7fD6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+const morning_revival_this_week = `<a>第三周 作为圣膏油之复合膏油的内在意义与启示—经过过程之三一神的复合、包罗万有之灵完满的预表</a>`
+const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.03.%E5%9B%BD%E6%AE%87%E8%8A%82%E7%89%B9%E4%BC%9A:%E7%AC%AC%E4%B8%89%E5%91%A8"
+const youtube = `<br><iframe width="400" height="225" src="https://www.youtube.com/embed/_HB-kLtYDRo?si=nNQRFHUcHXHXNz-d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
 
 const old_test1 = "约书亚记" 
+const old_test2 = "士师记" 
 const new_test1 = "希伯来书"
 
 
@@ -35,14 +36,20 @@ $(elem).append(youtube)
 $('.div2 > .sub').text("圣经")
 
 ti = "旧约：" + old_test1
-content = " <a>第19~23章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=6&f_ChapterNo=19"
+content = " <a>第24章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=6&f_ChapterNo=24"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > .p1'
 updatePointContent(elem, ti, content, link)
 
+ti = "旧约：" + old_test2
+content = " <a>第1~4章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=7&f_ChapterNo=1"
+elem = 'body > div.div2 > h3 > ul > li:nth-child(1) > .p2'
+updatePointContent(elem, ti, content, link)
+
 ti = "新约：" + new_test1
-content = " <a>第2~6章</a>" //<------ update here every week
-link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=58&f_ChapterNo=2"
+content = " <a>第7~11章</a>" //<------ update here every week
+link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=58&f_ChapterNo=7"
 elem = 'body > div.div2 > h3 > ul > li:nth-child(2) > .p1'
 updatePointContent(elem, ti, content, link)
 
@@ -54,7 +61,7 @@ content = "<a>" + newTest + "</a>"
 link = 'https://simplified.lsmchinese.org/lifestudy/col-idx.html'
 elem = '.div3 > h3 > ul > .p1'
 updatePointContent(elem, ti, content, link)
-ti = "展览日期: 10/17/2024"
+ti = "展览日期: 11/14/2024"
 $('.div3 > h3 > ul > .p2').text(ti)
-ti = '展览范围：<a href="./Lifestudy.html">歌罗西书生命读经第17至24篇</a> <a href="https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=51&f_ChapterNo=2">(歌罗西书章二1~22节)</a>'
+ti = '展览范围：<a href="./Lifestudy.html">歌罗西书生命读经第25至32篇</a> <a href="https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=51&f_ChapterNo=2">(歌罗西书第二~四章)</a>'
 $('.div3 > h3 > ul > .p3').html(ti)
