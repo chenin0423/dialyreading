@@ -5,7 +5,7 @@ function updatePointContent(element, title, content, link){
     $(element).attr('href', link)
 }
 
-const title = "本周(10.27.2024 - 11.02.2024)晨兴与读经进度"
+const title = "本周(11.03.2024 - 11.09.2024)晨兴与读经进度"
 const morning_revival_book_title = "2024年国殇节特会 基督徒的生活"
 const morning_revival_this_week = `<a>第五周 享受生命的流带着生命的供应，出于并为着神宏伟的殿，借此过基督徒的生活</a>`
 const morning_revival_link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.03.%E5%9B%BD%E6%AE%87%E8%8A%82%E7%89%B9%E4%BC%9A:%E7%AC%AC%E4%BA%94%E5%91%A8"
